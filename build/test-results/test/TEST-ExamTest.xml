@@ -1,146 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ExamTest" tests="28" skipped="0" failures="14" errors="0" timestamp="2022-10-29T07:23:28" hostname="fedora" time="0.121">
+<testsuite name="ExamTest" tests="28" skipped="0" failures="9" errors="0" timestamp="2022-10-29T09:11:53" hostname="fedora" time="0.121">
   <properties/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.015"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.013"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 2" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 2" classname="ExamTest" time="0.002"/>
-  <testcase name="Latihan 2" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.026">
-    <failure message="org.opentest4j.AssertionFailedError: Jika argumennya adalah `50`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Integer`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumennya adalah `50`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Integer`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$1.invoke(ExamTest.kt:108)
-	at app//ExamTest$1$1$3$1.invoke(ExamTest.kt:106)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</failure>
-  </testcase>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: Jika argumennya adalah `Dicoding Indonesia`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's String`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumennya adalah `Dicoding Indonesia`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's String`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$2.invoke(ExamTest.kt:117)
-	at app//ExamTest$1$1$3$2.invoke(ExamTest.kt:115)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</failure>
-  </testcase>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.001">
-    <failure message="org.opentest4j.AssertionFailedError: Jika argumennya adalah `1.0`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Double`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumennya adalah `1.0`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Double`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$3.invoke(ExamTest.kt:126)
-	at app//ExamTest$1$1$3$3.invoke(ExamTest.kt:124)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</failure>
-  </testcase>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: Jika argumennya adalah `listOf&lt;String&gt;()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's List`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumennya adalah `listOf&lt;String&gt;()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's List`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$4.invoke(ExamTest.kt:135)
-	at app//ExamTest$1$1$3$4.invoke(ExamTest.kt:133)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</failure>
-  </testcase>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.001">
-    <failure message="org.opentest4j.AssertionFailedError: Jika argumennya adalah `mapOf&lt;String, String&gt;()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Map`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumennya adalah `mapOf&lt;String, String&gt;()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Map`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$5.invoke(ExamTest.kt:144)
-	at app//ExamTest$1$1$3$5.invoke(ExamTest.kt:142)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</failure>
-  </testcase>
+  <testcase name="Latihan 2" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 2" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.002"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 4" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 4" classname="ExamTest" time="0.001">
+  <testcase name="Latihan 4" classname="ExamTest" time="0.028">
     <failure message="org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
@@ -215,7 +95,7 @@
 	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.005">
+  <testcase name="Latihan 5" classname="ExamTest" time="0.003">
     <failure message="org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
@@ -317,7 +197,7 @@
 	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.003">
+  <testcase name="Latihan 5" classname="ExamTest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: Pemanggilan fungsi multiple() seharusnya terdapat jeda waktu minimal 2 detik" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Pemanggilan fungsi multiple() seharusnya terdapat jeda waktu minimal 2 detik
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
