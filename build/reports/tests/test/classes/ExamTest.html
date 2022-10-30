@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">9</div>
+<div class="counter">6</div>
 <p>failures</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">67%</div>
+<div class="percent">78%</div>
 <p>successful</p>
 </div>
 </td>
@@ -70,17 +70,14 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="Latihan 4"></a>
-<h3 class="failures">Latihan 4</h3>
+<a name="Latihan 5"></a>
+<h3 class="failures">Latihan 5</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`
+<pre>org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$4$2.invoke(ExamTest.kt:160)
-	at app//ExamTest$1$1$4$2.invoke(ExamTest.kt:158)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
+	at app//ExamTest$1$1$5$1$1.invokeSuspend(ExamTest.kt:181)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
 	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
 	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
@@ -89,54 +86,8 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
 	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Latihan 4"></a>
-<h3 class="failures">Latihan 4</h3>
-<span class="code">
-<pre>org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `maxTank` dengan nilai `100Ltr`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$4$4.invoke(ExamTest.kt:170)
-	at app//ExamTest$1$1$4$4.invoke(ExamTest.kt:168)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Latihan 4"></a>
-<h3 class="failures">Latihan 4</h3>
-<span class="code">
-<pre>org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `maxSpeed` dengan nilai `230Km/s`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$4$3.invoke(ExamTest.kt:165)
-	at app//ExamTest$1$1$4$3.invoke(ExamTest.kt:163)
+	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:176)
+	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:175)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -160,11 +111,11 @@
 <a name="Latihan 5"></a>
 <h3 class="failures">Latihan 5</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi sum() seharusnya mengembalikkan nilai 10
+<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$5$2$1.invokeSuspend(ExamTest.kt:188)
+	at app//ExamTest$1$1$5$6$1.invokeSuspend(ExamTest.kt:219)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
 	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
 	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
@@ -173,8 +124,8 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
 	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//ExamTest$1$1$5$2.invoke(ExamTest.kt:186)
-	at app//ExamTest$1$1$5$2.invoke(ExamTest.kt:185)
+	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:217)
+	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:216)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -213,44 +164,6 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
 	at app//ExamTest$1$1$5$4.invoke(ExamTest.kt:200)
 	at app//ExamTest$1$1$5$4.invoke(ExamTest.kt:199)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@11.0.17/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base@11.0.17/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base@11.0.17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base@11.0.17/java.lang.Thread.run(Thread.java:829)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Latihan 5"></a>
-<h3 class="failures">Latihan 5</h3>
-<span class="code">
-<pre>org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$5$1$1.invokeSuspend(ExamTest.kt:181)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:176)
-	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:175)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -350,11 +263,11 @@
 <a name="Latihan 5"></a>
 <h3 class="failures">Latihan 5</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25
+<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi sum() seharusnya mengembalikkan nilai 10
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$5$6$1.invokeSuspend(ExamTest.kt:219)
+	at app//ExamTest$1$1$5$2$1.invokeSuspend(ExamTest.kt:188)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
 	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
 	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
@@ -363,8 +276,8 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
 	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:217)
-	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:216)
+	at app//ExamTest$1$1$5$2.invoke(ExamTest.kt:186)
+	at app//ExamTest$1$1$5$2.invoke(ExamTest.kt:185)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -402,17 +315,7 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
 <td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -437,7 +340,17 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.019s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -462,11 +375,6 @@
 </tr>
 <tr>
 <td class="success">Latihan 3</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 3</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
@@ -486,14 +394,9 @@
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Latihan 4</td>
-<td class="failures">0.028s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 4</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">Latihan 3</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Latihan 4</td>
@@ -501,17 +404,37 @@
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Latihan 4</td>
+<td class="success">Latihan 4</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 4</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 4</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 5</td>
+<td class="failures">0.027s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 5</td>
+<td class="failures">0.003s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 5</td>
 <td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">Latihan 5</td>
-<td class="failures">0.006s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
 <td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
@@ -522,17 +445,7 @@
 </tr>
 <tr>
 <td class="failures">Latihan 5</td>
-<td class="failures">0.003s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
-<td class="failures">0.003s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
-<td class="failures">0.003s</td>
+<td class="failures">0.004s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -545,7 +458,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at Oct 29, 2022, 4:11:53 PM</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at Oct 30, 2022, 12:41:46 PM</p>
 </div>
 </div>
 </body>
